@@ -1,25 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portofilo</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    body { font-family: sans-serif; text-align: center; padding: 100px; }
-    h1 { color: #423; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Ghosh | Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+            padding: 20px;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+
+        h1 {
+            color: #4b2c20;
+            margin-bottom: 10px;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            color: #666;
+            margin-bottom: 20px;
+            font-style: italic;
+        }
+
+        .contact-info {
+            background: #f4f4f9;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            font-weight: bold;
+            color: #764ba2;
+        }
+
+        .section-title {
+            text-align: left;
+            border-bottom: 2px solid #764ba2;
+            display: inline-block;
+            margin-bottom: 15px;
+            color: #234;
+            padding-right: 20px;
+        }
+
+        .details {
+            text-align: left;
+            background: #fff;
+            padding: 15px;
+            border-left: 4px solid #764ba2;
+        }
+
+        .details p {
+            margin: 5px 0;
+            font-size: 1.1rem;
+        }
+
+        strong {
+            color: #555;
+        }
+    </style>
 </head>
 <body>
-  <h1>Hey, I'm Rahul Ghosh</h1>
-  <p>This is my website. Learn about me here.</p>
-  <p>Contact: rahullearning99.5@gmail.com</p>
-</body>
-<body>
-  <h2>Family Background</h2>
-  <p>Father : Ramen Ghosh</p>
-  <p>Mother : Rakhi Ghosh</p>
-   <style>
-    body { font-family: sans-serif; text-align: left; padding: 200px; }
-    h2 { color: #234; }
-  </style>
+
+    <div class="container">
+        <h1>Rahul Ghosh</h1>
+        <p class="subtitle">This is my website. Learn about me here.</p>
+        
+        <div class="contact-info">
+            rahullearning99.5@gmail.com
+        </div>
+
+        <h2 class="section-title">Family Background</h2>
+        <div class="details">
+            <p><strong>Father:</strong> Ramen Ghosh</p>
+            <p><strong>Mother:</strong> Rakhi Ghosh</p>
+        </div>
+    </div>
+
 </body>
 </html>
